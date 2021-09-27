@@ -1,0 +1,4 @@
+for /l %x in (1, 1, 1000) do (
+   echo %x Prints the current iteration
+   python fantacalcio.py input1 input2
+)
